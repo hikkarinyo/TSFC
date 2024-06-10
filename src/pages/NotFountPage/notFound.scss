@@ -1,0 +1,76 @@
+@import "src/assets/styles/colors";
+
+.notFoundWrapper {
+  background-image: image-set(
+    url('/public/images/notFound.webp') 1x,
+    url('/public/images/notFound.jpg') 2x
+  );
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundTitle {
+  color: $white;
+  text-shadow: 0px 2.88px 2.88px $text-shadow;
+  font-family: "PF Beau Sans Pro Book", serif;
+  font-size: 359.943px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  mix-blend-mode: overlay;
+  text-align: center;
+}
+
+.notFoundText {
+  color: $primary;
+  font-family: "PF Beau Sans Pro Book", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  max-width: 410px;
+}
+
+.notFoundLink {
+  color: $secondary;
+  text-decoration: none;
+}
+
+.notFoundBlock {
+  display: flex;
+  justify-content: space-between;
+  grid-column-gap: 50px;
+}
+
+.notFoundSocialIcon {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+
+  .notFoundTitle {
+    font-size: 138px;
+  }
+
+  .notFoundText {
+    font-size: 7px;
+    line-height: 7px;
+  }
+
+  .notFoundBlock {
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 30px;
+  }
+}

@@ -1,0 +1,148 @@
+@import "src/assets/styles/colors";
+
+.footer {
+  background-color: $bg-footer;
+  position: relative;
+  padding: 43px 0;
+  overflow: hidden;
+}
+
+.footerWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: start;
+  margin: 0 100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.footerLine {
+  grid-area: 2 / 1 / 3 / 3;
+  height: 1px;
+  border-bottom: 1px solid $secondary;
+}
+
+.footerLogo {
+  grid-area: 1 / 1 / 2 / 2;
+  align-self: end;
+  margin-bottom: 20px;
+}
+
+.footerNav {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  grid-column-gap: 30px;
+  justify-self: end;
+  align-self: end;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.footerCopyright {
+  margin-top: 20px;
+  grid-area: 3 / 1 / 2 / 2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.5;
+  color: $white;
+}
+
+.footerSocialLinkSection {
+  margin-top: 20px;
+  grid-area: 3 / 2 / 2 / 3;
+  align-self: start;
+  justify-self: end;
+  display: flex;
+}
+
+.gradient {
+  position: absolute;
+  width: 204px;
+  height: 204px;
+  top: 0;
+  right: 0;
+  background: $radial-gradient;
+  filter: blur(250px);
+  z-index: -1;
+}
+
+.footerLink {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $primary;
+
+  &:hover {
+    color: $secondary;
+  }
+}
+
+@media (max-width: 1120px) {
+
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footerLink {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .footerWrapper {
+    margin: 0 100px;
+    grid-column-gap: 0;
+    grid-row-gap: 40px;
+  }
+
+  .footerLogo {
+    margin: 0;
+  }
+
+  .footerNav {
+    grid-area: 2 / 2 / 2 / 1;
+    flex-direction: column;
+    justify-self: start;
+    grid-row-gap: 30px;
+  }
+
+  .footerCopyright {
+    grid-area: 3 / 1 / 3 / 3;
+    font-size: 10px;
+  }
+
+  .footerSocialLinkSection {
+    grid-area: 1/ 2 / 2 / 3;
+    justify-self: end;
+    align-self: end;
+    width: max-content;
+  }
+
+  .footerLine {
+   display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .footerWrapper {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .footerSocialLinkSection {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+
+  .footerLink {
+    margin-right: 10px;
+  }
+}

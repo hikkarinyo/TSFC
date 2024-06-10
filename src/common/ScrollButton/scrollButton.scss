@@ -1,0 +1,40 @@
+@import "src/assets/styles/colors";
+
+.buttonContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  bottom: 50%;
+  top: 50%;
+  right: 40px;
+  background: $bg-switcher;
+  border-radius: 100px;
+  width: 53px;
+  max-height: 150px;
+  height: 100%;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  z-index: 1;
+}
+
+.buttonIcon {
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+
+  &:hover,
+  &.active {
+    color: $secondary;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .buttonContainer {
+    display: none;
+  }
+}

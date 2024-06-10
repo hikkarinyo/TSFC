@@ -1,0 +1,141 @@
+@import "src/assets/styles/colors";
+
+.bannerTitle {
+  color: $primary;
+  font-family: 'PF Beau Sans Pro Regular', serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 84px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.bannerDescription {
+  color: $primary;
+  text-align: justify;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.bannerSection {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-column-gap: 30px;
+}
+
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-row-gap: 43px;
+}
+
+.bannerTextSection {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 43px;
+}
+
+.bannerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: image-set(
+      url('/public/images/background.webp') 1x,
+      url('/public/images/background.jpg') 2x
+  );
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bannerAppLinks {
+  display: flex;
+  grid-column-gap: 30px;
+  padding-top: 23px;
+}
+
+.bannerRightAngle {
+  width: 110px;
+  height: 110px;
+  border-left: 1px solid $primary;
+  border-bottom: 1px solid $primary;
+  position: absolute;
+  left: 50px;
+  bottom: 42px;
+}
+
+.bannerLeftAngle {
+  width: 110px;
+  height: 110px;
+  border-right: 1px solid $primary;
+  border-bottom: 1px solid $primary;
+  position: absolute;
+  right: 50px;
+  bottom: 42px;
+}
+
+.bannerImage {
+  max-width: 664px;
+}
+
+@media (max-width: 1220px) {
+
+  .bannerSection {
+    grid-template-columns: 1fr;
+  }
+
+  .bannerImage {
+    order: -1;
+  }
+
+  .bannerContent {
+    flex-direction: column-reverse;
+  }
+
+  .bannerTextSection {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 11px;
+  }
+
+  .bannerTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .bannerDescription {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .bannerWrapper {
+    height: 100%;
+  }
+
+  .bannerRightAngle, .bannerLeftAngle {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .bannerTitle {
+    font-size: 20px;
+  }
+
+  .bannerDescription {
+    font-size: 12px;
+  }
+}
+
+

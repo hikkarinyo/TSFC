@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /docs/eng/privacy-policy.pdf
+Disallow: /docs/ru/privacy-policy.pdf
+Disallow: /docs/pol/privacy-policy.pdf
+
+Disallow: /docs/pol/kyc-policy.pdf
+Disallow: /docs/ru/kyc-policy.pdf
+Disallow: /docs/eng/kyc-policy.pdf
+
+Disallow: /docs/eng/*
+Disallow: /docs/ru/*
+Disallow: /docs/pol/*

@@ -1,0 +1,21 @@
+@import '../../assets/styles/colors';
+
+.copyright {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.5;
+  color: $white;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 768px) {
+
+  .copyright {
+    white-space: normal;
+  }
+}
+

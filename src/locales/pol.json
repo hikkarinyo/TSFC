@@ -1,0 +1,49 @@
+{
+  "banner": {
+    "bannerDescription": "TSFC to szansa na efektywne wykorzystanie swojego kapitału.\n\nNasz zespół profesjonalistów posiada obszerne doświadczenie i głęboką wiedzę, aby dostarczyć Ci najlepszych decyzji inwestycyjnych."
+  },
+  "form": {
+    "nameLabel": "Imię",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Numer telefonu",
+    "commentLabel": "Podaj szczegółowe informacje na temat swojego zapytania lub propozycji.",
+    "policyText": "Klikając przycisk, zgadzasz się na",
+    "policyLink": "politykę prywatności",
+    "successMessage": "Zapytanie zostało pomyślnie wysłane! Oczekuj kontaktu od menedżera.",
+    "sendButton": "Wyślij",
+    "sendingButton": "Wysyłanie...",
+    "errorMessage": "Wystąpił błąd!",
+    "restartSend": "Powtórz."
+  },
+  "financialServices": {
+    "title": "Jak możemy ci pomóc?",
+    "services": {
+      "trade": "Handel: oferujemy narzędzie, które pozwala Ci czerpać korzyści z profesjonalnego zespołu traderów, dostosowywalne zaledwie w kilka kliknięć.",
+      "portfolio": "Formowanie portfela: Optymalizacja i kompozycja portfela inwestycyjnego klienta w celu osiągnięcia maksymalnej efektywności i zgodności z celami.",
+      "familyOffice": "Usługi biura rodzinnego: opracowywanie strategii planowania finansowego, w tym zarządzania budżetem, gromadzenia majątku, planowania emerytalnego, pomocy i wsparcia w dokonywaniu transakcji na całym świecie.",
+      "educationalPrograms": "Indywidualne programy edukacyjne w dziedzinie cyfrowych aktywów, badań i należyta staranność."
+    }
+  },
+  "footer": {
+    "supportLink": "Wsparcie",
+    "riskWarningLink": "Ostrzeżenie o ryzyku",
+    "userAgreementLink": "Polityka Prywatności rodo",
+    "kycPolicyLink": "Polityka AML/KYC",
+    "cookiePolicyLink": "Polityka plików cookie"
+  },
+  "notFound": {
+    "errorMessage": "Błąd. Spróbuj wrócić do ",
+    "homeLinkText": "strony głównej",
+    "contactText": "lub skontaktuj się z nami za pośrednictwem komunikatorów:"
+  },
+  "modal": {
+    "buttonText": "Zezwalaj na wszystkie pliki cookie",
+    "declineButtonText": "Odrzuć wszystkie pliki cookie",
+    "cookieTitle": "Zarządzanie plikami cookie",
+    "cookieText": "Ta strona internetowa używa plików cookie. Pliki cookie zapamiętują twoje działania i preferencje, zapewniając lepsze wrażenia online."
+  },
+  "validationErrors": {
+    "fieldRequired": "Pole wymagane",
+    "fieldIncorrect": "Nieprawidłowe pole"
+  }
+}

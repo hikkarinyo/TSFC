@@ -1,0 +1,71 @@
+@import 'src/assets/styles/colors';
+
+.financialServicesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: image-set(
+    url('/public/images/background-2.webp') 1x,
+    url('/public/images/background-2.jpg') 2x
+  );
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.innerContainer {
+  display: flex;
+  margin-bottom: 50px;
+  grid-column-gap: 20px;
+  grid-row-gap: 45px;
+}
+
+.formContainer {
+  width: 100%;
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  order: 2;
+  width: 100%;
+  background-color: $bg-card;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 112px;
+}
+
+@media (max-width: 1440px) {
+  .financialServicesSection {
+    height: 100%;
+  }
+
+  .innerContainer {
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  .textContainer {
+    margin-bottom: 20px;
+    height: 100%;
+    order: -1;
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .financialServicesSection {
+    height: 100%;
+  }
+
+  .innerContainer {
+    flex-direction: column;
+    max-width: 100%;
+  }
+}

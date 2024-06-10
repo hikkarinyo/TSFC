@@ -1,0 +1,24 @@
+@import '../../assets/styles/colors';
+
+.socialLinks {
+  margin-right: 20px;
+  cursor: pointer;
+  color: $secondary;
+  width: 25px;
+  height: 25px;
+
+  &:hover {
+    color: $primary;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .socialLinks {
+    margin-right: 10px;
+  }
+}

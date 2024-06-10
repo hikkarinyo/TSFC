@@ -1,0 +1,53 @@
+@import 'colors';
+
+@font-face {
+  font-family: 'Nunito', sans-serif;
+}
+
+@font-face {
+  font-family: 'PF Beau Sans Pro Regular';
+  src: local('PF Beau Sans Pro Regular'), local('PF-Beau-Sans-Pro-Regular'),
+  url('../../assets/fonts/PFBeauSansPro/Regular/PFBeauSansPro-Regular.woff2') format('woff2'),
+  url('../../assets/fonts/PFBeauSansPro/Regular/PFBeauSansPro-Regular.woff') format('woff'),
+  url('../../assets/fonts/PFBeauSansPro/Regular/PFBeauSansPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Beau Sans Pro Book';
+  src: local('PF Beau Sans Pro Regular'), local('PF-Beau-Sans-Pro-Regular'),
+  url('../../assets/fonts/PFBeauSansPro/Regular/PFBeauSansPro-Regular.woff2') format('woff2'),
+  url('../../assets/fonts/PFBeauSansPro/Regular/PFBeauSansPro-Regular.woff') format('woff'),
+  url('../../assets/fonts/PFBeauSansPro/Regular/PFBeauSansPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: $primary;
+  background-color: $bg-color;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}

@@ -1,0 +1,51 @@
+{
+  "banner": {
+    "bannerDescription": "TSFC is the opportunity to make your capital work efficiently.\n\nOur team of professionals has extensive experience and deep expertise to provide you with the best investment decisions."
+  },
+  "form": {
+    "nameLabel": "Enter your name",
+    "emailLabel": "Enter your email",
+    "phoneLabel": "Enter your phone number",
+    "commentLabel": "Provide detailed information on the subject of your request or proposal",
+    "policyText": "By clicking the button, you agree to the",
+    "policyLink": "privacy policy",
+    "successMessage": "Request successfully sent! Expect contact from a manager.",
+    "sendButton": "Send",
+    "sendingButton": "Sending...",
+    "error": "Required field",
+    "errorMessage": "An error occurred!",
+    "restartSend": "Retry."
+  },
+  "financialServices": {
+    "title": "How can we help you?",
+    "services": {
+      "trade": "Trading: we offer you a tool that allows you to reap all the benefits of a professional team of traders, customizable in just a few clicks.",
+      "portfolio": "Portfolio Formation: Optimization and composition of the client's investment portfolio to achieve maximum efficiency and alignment with goals.",
+      "familyOffice": "Family Office Service: development of financial planning strategies, including budget management, wealth accumulation, retirement planning, assistance and support in executing worldwide payments.",
+      "educationalPrograms": "Individual educational programs in the field of digital assets, research, and due diligence."
+    }
+  },
+  "footer": {
+    "supportLink": "Support",
+    "riskWarningLink": "Risk Warning",
+    "userAgreementLink": "Privacy Policy",
+    "kycPolicyLink": "AML/KYC Policy",
+    "cookiePolicyLink": "Cookie Policy"
+  },
+  "notFound": {
+    "errorMessage": "Error. Try going back to the ",
+    "homeLinkText": "home page",
+    "contactText": "or contact us through messengers:"
+  },
+  "modal": {
+    "buttonText": "Allow all cookies",
+    "declineButtonText": "Reject all cookies",
+    "cookieTitle": "Cookies managing",
+    "cookieText": "This website uses cookies. Cookies remember your actions and preferences for a better online experience."
+  },
+  "validationErrors": {
+    "fieldRequired": "This field is required",
+    "fieldIncorrect": "Invalid field"
+
+  }
+}

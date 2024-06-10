@@ -1,0 +1,125 @@
+@import "src/assets/styles/colors";
+
+.form {
+  background-color: $bg-card;
+  border-radius: 10px;
+  padding: 65px 45px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 600px;
+}
+
+.formInputs {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 45px;
+  width: 100%;
+}
+
+.formPolicy {
+  color: $white;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 22px;
+  margin-bottom: 65px;
+  align-self: flex-start;
+}
+
+.formLinkIcon {
+  text-decoration: none;
+  color: $secondary;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.formLink {
+  text-decoration: none;
+  color: $secondary;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.formSection {
+  display: flex;
+  justify-content: center;
+  grid-column-gap: 20px;
+}
+
+.formSocialIcons {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 35px;
+  width: 40px;
+  height: 40px;
+}
+
+.formMessage {
+  display: flex;
+  grid-column-gap: 15px;
+  align-items: center;
+}
+
+.formMessageText {
+  color: $white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.formRestart {
+  color: $secondary;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+@media (max-width: 1800px) {
+
+  .form {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 1440px) {
+
+  .formSocialIcons {
+    display: none;
+  }
+
+  .form {
+    margin-left: 0;
+    min-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .form {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .formSection {
+    width: 100%;
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .form {
+   .button {
+     width: 100%;
+   }
+  }
+}

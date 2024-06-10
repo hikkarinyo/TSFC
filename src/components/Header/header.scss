@@ -1,0 +1,15 @@
+.header {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+
+@media (max-width: 430px) {
+  .header{
+    top: 50px;
+  }
+
+  .headerLogo {
+    height: 25px;
+  }
+}

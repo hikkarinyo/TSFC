@@ -1,0 +1,105 @@
+@import 'src/assets/styles/colors';
+
+
+.financialServicesTitle {
+  color: $white;
+  font-family: 'PF Beau Sans Pro Regular', serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.financialServicesList {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 40px;
+  margin: 0;
+  padding: 40px 20px 0;
+}
+
+.financialServicesItem {
+  color: $primary;
+  text-align: justify;
+  font-family: 'Nunito', serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.financialServicesAngle {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+
+  .financialServicesTitle {
+    margin-top: 40px;
+    font-size: 36px;
+  }
+
+  .financialServicesItem {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .financialServicesAngle {
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-right: 1px solid $secondary;
+    border-top: 1px solid $secondary;
+    position: absolute;
+    right: 0;
+    margin: 0 20px;
+    top: 29px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .financialServicesItem {
+    font-size: 14px;
+  }
+
+  .financialServicesList {
+    margin-left: 20px;
+    margin-right: 66px;
+    padding-left: 20px;
+    padding-top: 33px;
+  }
+
+  .financialServicesTitle {
+    margin-left: 10px;
+  }
+}
+
+
+@media (max-width: 425px) {
+
+  .financialServicesTitle {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .financialServicesItem {
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .financialServicesAngle {
+    display: none;
+  }
+
+  .financialServicesList {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 33px;
+  }
+}
+
